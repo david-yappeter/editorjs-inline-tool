@@ -1,0 +1,38 @@
+{
+  "name": "@davidyappeter/editorjs-inline-tool",
+  "version": "1.0.0",
+  "keywords": [
+    "editor.js",
+    "editorjs",
+    "editorjs-inline",
+    "editorjs-inline-tool"
+  ],
+  "description": "Create a text formatting inline tool for Editor.js (Fix shortcut issue)",
+  "license": "MIT",
+  "repository": "https://github.com/david-yappeter/editorjs-inline-tool",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/inline-tool.umd.js",
+  "module": "./dist/inline-tool.mjs",
+  "exports": {
+    ".": {
+      "import": "./dist/inline-tool.mjs",
+      "require": "./dist/inline-tool.umd.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "author": {
+    "name": "David Yappeter",
+    "email": "davidyap11les@gmail.com"
+  },
+  "devDependencies": {
+    "vite": "^4.5.0",
+    "vite-plugin-css-injected-by-js": "^3.3.0"
+  },
+  "dependencies": {
+  }
+}
